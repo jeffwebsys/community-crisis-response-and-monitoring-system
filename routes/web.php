@@ -1,3 +1,3 @@
 <?php
 
-Route::view('/', 'welcome')->name('site.index');
+//Route::view('/', 'welcome')->name('site.index');
