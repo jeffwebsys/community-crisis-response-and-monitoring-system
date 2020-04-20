@@ -23,9 +23,9 @@ class CreateFamiliesTable extends Migration
             $table->string('gender_head_family');
             $table->string('bod_head_family');
             $table->string('head_family');
-            $table->string('spouse');
-            $table->string('gender_spouse');
-            $table->string('bod_spouse');
+            $table->string('spouse')->nullable();
+            $table->string('gender_spouse')->nullable();
+            $table->string('bod_spouse')->nullable();
             $table->string('first_child');
             $table->string('gender_first_child');
             $table->string('bod_first_child');
